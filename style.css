@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-image: url(fondo-flex.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 1535px;
+    height: 670px;
+
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 110%;
+    width: 100%;
+    align-items: end;
+}
+
+.abajo {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+}
+.ultimo {
+    align-self: flex-end;
+    justify-content: center;
+}
+.uno {
+   width: 200px;
+    height: 200px;
+}
+
+.dos {
+   width: 200px;
+    height: 200px;
+}
+
+.tres {
+    width: 200px;
+    height: 200px;
+}
+
+.cuatro {
+    width: 200px;
+    height: 200px;
+}
+
+.cinco {
+    width: 200px;
+    height: 200px;
+}
